@@ -193,13 +193,46 @@ main section {
 
 /* resume section design here  */
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 70px;
     justify-content: space-around;
 }
+
 .resume-color-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.item-institute {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.item-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20;
+}
+
+.item-deception {
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+
+.resume-colom hr {
+    background: #D1D1D1;
+    margin: 30px 0;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
