@@ -116,8 +116,16 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+    margin-bottom: 30px;
 }
+.contact-btn {
+    margin-left: 20px;
+    background: none;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+
 
 /* main section styles  */
 main {
@@ -253,6 +261,10 @@ footer {
 .footer-colom{
     width: 50%;
 }
+.social-links a{
+    
+    margin-right: 20px;
+}
 .footer-title {
     color: #181818;
     font-size: 35px;
@@ -264,6 +276,7 @@ footer {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin-bottom: 30px;
 }
 
 .contact input[type="text"], .contact input[type="email"],
