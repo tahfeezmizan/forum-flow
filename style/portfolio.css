@@ -26,7 +26,7 @@
     font-weight: 700;
 }
 
-.section-des {
+.section-dec {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -120,7 +120,7 @@ nav a {
 }
 
 /* main section styles  */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -134,11 +134,36 @@ main{
     margin: 130px 0;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.info-descripton {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* what i dow section design here  */
+#what-i-do-description{
+    padding: 30px 160px;
+}
+
+.skills-container{
+    display: flex;
+    margin: 24px;
+    justify-content: space-around;
 }
