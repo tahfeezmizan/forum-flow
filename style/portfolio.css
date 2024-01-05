@@ -13,7 +13,7 @@
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
-    color:#FFF;
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
@@ -22,6 +22,7 @@
 /* navbar style */
 nav {
     display: flex;
+    margin: 0 220px;
     align-items: center;
     justify-content: space-between;
 }
@@ -52,4 +53,22 @@ nav a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+/* header style */
+
+#header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
 }
