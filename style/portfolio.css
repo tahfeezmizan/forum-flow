@@ -19,6 +19,9 @@
     padding: 15px 35px;
 }
 
+.btn-primary i {
+    margin-right: 6px;
+}
 .section-title {
     color: #181818;
     text-align: center;
