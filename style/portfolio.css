@@ -22,6 +22,7 @@
 .btn-primary i {
     margin-right: 6px;
 }
+
 .section-title {
     color: #181818;
     text-align: center;
@@ -122,6 +123,7 @@ nav a {
     line-height: 30px;
     margin-bottom: 30px;
 }
+
 .contact-btn {
     margin-left: 20px;
     background: none;
@@ -262,13 +264,15 @@ footer {
     justify-content: space-around;
 }
 
-.footer-colom{
+.footer-colom {
     width: 50%;
 }
-.social-links a{
-    
+
+.social-links a {
+
     margin-right: 20px;
 }
+
 .footer-title {
     color: #181818;
     font-size: 35px;
@@ -283,11 +287,13 @@ footer {
     margin-bottom: 30px;
     padding-right: 80px;
 }
+
 form.contact {
     max-width: 70%;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     width: 100%;
@@ -298,6 +304,7 @@ textarea {
     outline: none;
     border: none;
 }
+
 textarea {
     resize: none;
 }
@@ -311,6 +318,16 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 576px) {
+
+    #about {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+    }
+
     #what-i-do-description {
         padding: 20px 20px;
     }
@@ -321,5 +338,24 @@ textarea::placeholder {
 
     .resume-container {
         flex-direction: column;
+    }
+
+    footer {
+        gap: 20px;
+        flex-direction: column;
+        padding: 20px 20px;
+        margin-top: 24px;
+    }
+
+    .footer-description {
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        margin-bottom: 20px;
+        padding: 13px 40px;
     }
 }
