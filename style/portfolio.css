@@ -318,7 +318,11 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 576px) {
-
+    .btn-primary {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 25px;
+    }
     #about {
         padding: 10px;
         margin: 10px 0;
@@ -351,7 +355,9 @@ textarea::placeholder {
         margin-bottom: 10px;
         padding-right: 10px;
     }
-
+    .footer-title {
+        font-size: 18px;
+    }
     .contact input[type="text"],
     .contact input[type="email"],
     textarea {
