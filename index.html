@@ -4,11 +4,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+  <title>Retro Forum Web Template</title>
+
+  <!-- font awesome icon cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- google font cdn  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
+  <!-- tailwind css and daisy UI cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <div class="navbar w-full lg:w-11/12 xl:w-8/12  mx-auto py-12 px-4 md:px-6 lg:px-0">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 gap-3 shadow bg-base-100 rounded-box w-52">
+
+            <div class="tooltip" data-tip="Home">
+              <li><img class="border rounded-full p-4 bg-slate-50" src="asstest/images/home.svg" alt=""></li>
+            </div>
+            <div class="tooltip" data-tip="Edit">
+              <li><img class="border rounded-full p-4 bg-slate-50" src="asstest/images/pen.svg" alt=""></li>
+            </div>
+            <div class="tooltip" data-tip="Add User+">
+              <li><img class="border rounded-full p-4 bg-slate-50" src="asstest/images/user.svg" alt=""></li>
+            </div>
+            <div class="tooltip" data-tip="Flag">
+              <img class="border rounded-full p-4 bg-slate-50" src="asstest/images/flag.svg" alt="">
+            </div>
+
+            <a class="btn bg-indigo-500 hover:bg-indigo-700 rounded-full px-10 text-white text-xl font-semibold ">Sing In</a>
+          </ul>
+        </div>
+        <a class="text-primaryColor font-mulish text-4xl font-black cursor-pointer ml-4 lg:ml-0">Retro</a>
+      </div>
+
+      <div class="navbar-end hidden lg:flex gap-6">
+        <ul class="menu menu-horizontal gap-4">
+          <div class="tooltip" data-tip="Home">
+            <li><img class="border rounded-full p-4 bg-slate-50" src="asstest/images/home.svg" alt=""></li>
+          </div>
+          <div class="tooltip" data-tip="Edit">
+            <li><img class="border rounded-full p-4 bg-slate-50" src="asstest/images/pen.svg" alt=""></li>
+          </div>
+          <div class="tooltip" data-tip="Add User+">
+            <li><img class="border rounded-full p-4 bg-slate-50" src="asstest/images/user.svg" alt=""></li>
+          </div>
+          <div class="tooltip cursor-pointer" data-tip="Flag">
+            <img class="border rounded-full p-4 bg-slate-50" src="asstest/images/flag.svg" alt="">
+          </div>
+        </ul>
+
+        <a class="btn bg-indigo-500 hover:bg-indigo-700 rounded-full px-10 text-white text-xl font-semibold ">Sing In</a>
+      </div>
+  </header>
 
   <main></main>
 
