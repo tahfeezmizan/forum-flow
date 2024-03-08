@@ -20,7 +20,35 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <style>
+    .text-gradient {
+      background: linear-gradient(to right, #3b82f6, #242696);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
 
+    .mulish {
+      font-family: 'Mulish', sans-serif;
+    }
+
+    .inter {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .btnBg {
+      background-color: rgb(121, 125, 252);
+    }
+
+    .primaryColor {
+      background-color: rgb(18, 19, 45);
+
+    }
+
+    textarea {
+      resize: none !important;
+    }
+  </style>
 
 </head>
 
@@ -84,8 +112,8 @@
     <section class="pb-12">
       <div class="w-full lg:w-11/12 xl:w-8/12 mx-auto px-3 md:px-6 lg:px-0">
         <div
-          class="bg-primaryColor flex flex-col lg:flex-row justify-center items-center gap-16 md:gap-28 lg:px-28 h-auto lg:h-[500px] rounded-3xl bg-no-repeat bg-bottom bg-contain"
-          style="background-image: url(images/bgbanner.png)">
+          class="primaryColor flex flex-col lg:flex-row justify-center items-center gap-16 md:gap-28 lg:px-28 h-auto lg:h-[500px] rounded-3xl bg-no-repeat bg-bottom bg-contain"
+          style="background-image: url(asstest/images/bgbanner.png)">
           <!-- banner content  -->
           <div>
             <h1
@@ -98,7 +126,13 @@
               class="mulish text-xl text-center lg:text-start px-9 md:px-40 lg:px-0 lg:pr-24 font-medium text-white text-opacity-80 mb-8">
               Our vibrant forum community! Join insightful conversations and exclusive benefits.</p>
             <!-- input filed -->
-            
+            <div
+              class="flex justify-between items-center bg-white rounded-full py-1 lg:py-2 pl-4 pr-2 w-[335px] lg:w-[400px] mx-auto lg:mx-0">
+              <input id="search-filed" type="text" class="border-none outline-none text-base font-medium"
+                placeholder="Search here anything">
+              <button onclick="searchDataByCategories()"
+                class="btn bg-indigo-500 px-7 rounded-full text-white text-xl font-bold">Search</button>
+            </div>
           </div>
           <!-- Registered Users card -->
           <div>
