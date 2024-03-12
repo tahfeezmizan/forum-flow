@@ -173,14 +173,40 @@
         </div>
 
         <!-- post container -->
-        
+        <div class="flex flex-col lg:flex-row gap-10">
+          <!-- dynamic data load container  -->
+          <div id="post-container" class="w-full lg:w-7/12 flex flex-col gap-10">
+          </div>
+
+          <div class="w-full lg:w-5/12">
+            <div class="bg-gray-100 border p-10 rounded-3xl">
+              <div class="flex justify-between mb-4">
+                <h3 class="mulish primarycolor text-xl font-bold">Title</h3>
+                <div class="flex gap-3 justify-between">
+                  <img class="w-7" src="images/read-icon.svg" alt="">
+                  <p class="inter text-base font-medium text-black opacity-60">Mark as read
+                    (<span id="totalReadForum">0</span>)
+                  </p>
+                </div>
+              </div>
+
+              <div id="finished-read" class="space-y-5">
+                <!-- <div class="flex gap-4 items-center bg-white rounded-2xl p-4">
+                          </div> -->
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
 
       </div>
     </section>
 
   </main>
 
-  <script src="src/index.js"></script>
+  <script src="src/script/script.js"></script>
 </body>
 
 </html>
